@@ -6,7 +6,7 @@ Setting up your code to use linthints requires using a decorator on your
 decorator itself, and otherwise writing your decorator as you normally
 would.
 
-Adding a new optional argument interpreted by the decorator::
+Adding a new optional argument interpreted by the decorator:
 
     >>> from linthints import adds_arguments, sets_arguments
     >>> import functools
@@ -28,7 +28,7 @@ Adding a new optional argument interpreted by the decorator::
     True
 
 
-Mark setting a value to a default likewise::
+Mark setting a value to a default likewise:
 
     >>> from linthints import adds_arguments, sets_arguments
     >>> import functools
@@ -66,7 +66,7 @@ the decorators you decorate.
 Tests
 =====
 
-Try this from the checked-out directory::
+Try this from the checked-out directory:
 
     PYTHONPATH=. python tests/test.py
     python -m doctest README.md
